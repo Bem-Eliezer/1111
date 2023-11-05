@@ -1,0 +1,56 @@
+	header {
+	background: linear-gradient(90.04deg,#181717 .02%,#06125c 55.64%);
+	margin-top: 10px ;
+	margin-bottom: 20px;
+	border-radius: 20px;
+	color: white;
+	position: sticky;
+    top: 0;
+    left: 0;
+	}
+
+	.navbar-nav .nav-link{
+		color: #fff;
+	}
+
+	.nav-link{
+		text-align: center;
+	}
+
+	body{
+		background: linear-gradient(90.04deg,#181717 .02%,#3e3e3f 55.64%);
+	}
+
+	h1{
+		font-size: 65px;
+		margin-left: 10px;
+	}
+
+	section h2{
+		margin-top: 20px;
+		font-size: 40px;
+		text-align: center;
+		color: #fff;
+
+	}
+
+	.card-img-overlay{
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+
+	.card{
+		margin-top: 20px;
+		margin-bottom: 20px;
+		
+	}
+
+	.card img {
+		border-radius: 8px; 
+		border-color: none;
+		height: 400px;
+	}
+
+	.card-title{
+		text-align: center;
+		padding-bottom: 15px;
+	}
