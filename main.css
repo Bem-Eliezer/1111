@@ -9,7 +9,7 @@
     left: 0;
 	}
 
-	.navbar-nav .nav-link{
+	.navbar-nav .nav-link.active{
 		color: #fff;
 	}
 
@@ -53,4 +53,45 @@
 	.card-title{
 		text-align: center;
 		padding-bottom: 15px;
+	}
+
+
+	@media screen and (max-width: 767px) {
+		.container {
+			display: block;
+		}
+
+		section h2	{
+			font-size: 25px;
+		}
+
+		.col-4 {
+			display: block;
+			width: 100%;
+		}
+
+		.card img{
+			height: 200px ;
+		}
+
+		.card-title{
+			text-align: center;
+			padding-bottom: 08px;
+		}
+	}
+
+	@media screen and (min-width: 768px) and (max-width: 1023px){
+		.container{
+			display: block;
+		}
+
+		.col-4 {
+			display: block;
+			width: 49%;
+		}
+
+		
+		}
+
+		
 	}
