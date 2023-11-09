@@ -18,10 +18,13 @@
 			<nav class="collapse navbar-collapse justify-content-end" id="menu">
 				<ul class="nav navbar-nav nav-pills ">
 					<li class="nav-item">
-						<a class="nav-link active" href="#inicio">Inicio</a>
+						<a class="nav-link active" href="#inicio" >inicio</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#categorias">Categorias</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#cadastro">Cadastro</a>
 					</li>
 				</ul>
 			</nav>
@@ -96,6 +99,32 @@
 								<p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur alias nostrum accusamus error ipsam in maiores saepe voluptas, voluptates dolores tenetur eos</p>
 							</div>
 						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="cadastro">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="alert "> 
+							<h2>Formulario de Cadastro</h2>
+						</div>
+						<form>
+							<label class="form-label" for="nome"> Seu Nome:</label>
+							<input  class="form-control form-control-md" type="text" id="nome">
+							<label class="form-label" for="email"> Seu E-mail:</label>
+							<input  class="form-control form-control-md" type="email" id="email">
+							<label class="form-label" for="tel"> Telefone:</label>
+							<input  class="form-control form-control-md" type="tel" id="tel">
+							<label class="form-label" for="text"> Categoria:</label>
+							<input  class="form-control form-control-md" type="text" id="tipo">
+							<div class="form-check for-switch">
+								<input class="form-check-input" type="checkbox" id="aceito-termos"/>
+								<label class="form-check-label" for="aceito-termos" id="aceito-termos" >Li e concordo com os termos estabelecidos</label>
+							</div>
+							<button class="btn btn-success" alt>cadastrar</button>
+						</form>
 					</div>
 				</div>
 			</div>
